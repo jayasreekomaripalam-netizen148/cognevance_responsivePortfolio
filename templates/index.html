@@ -1,0 +1,979 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Jaya — Full Stack Web Developer Portfolio"
+    >
+
+    <title>Jaya — Full Stack Web Developer</title>
+
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='style.css') }}"
+    >
+
+</head>
+
+
+<body id="home">
+
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+
+        <nav class="navbar">
+
+
+            <a
+                href="#home"
+                class="logo"
+            >
+                Jaya<span>.</span>
+            </a>
+
+
+            <!-- NAVIGATION -->
+
+            <div
+                class="nav-links"
+                id="navLinks"
+            >
+
+                <a href="#home">Home</a>
+
+                <a href="#about">About</a>
+
+                <a href="#skills">Skills</a>
+
+                <a href="#projects">Projects</a>
+
+                <a href="#contact">Contact</a>
+
+            </div>
+
+
+            <!-- ACTIONS -->
+
+            <div class="nav-actions">
+
+                <button
+                    id="themeToggle"
+                    class="theme-toggle"
+                    type="button"
+                    aria-label="Toggle theme"
+                >
+                    ◐
+                </button>
+
+
+                <button
+                    id="menuToggle"
+                    class="menu-toggle"
+                    type="button"
+                    aria-label="Open navigation menu"
+                    aria-expanded="false"
+                >
+                    ☰
+                </button>
+
+            </div>
+
+
+        </nav>
+
+    </header>
+
+
+
+    <main>
+
+
+        <!-- ================= HERO ================= -->
+
+        <section
+            id="hero"
+            class="hero"
+        >
+
+
+            <div class="hero-content">
+
+
+                <p class="hero-label">
+                    FULL STACK WEB DEVELOPER
+                </p>
+
+
+                <h1>
+                    Building digital
+                    <span>experiences</span>
+                    that matter.
+                </h1>
+
+
+                <p class="hero-description">
+
+                    I build modern web applications that combine
+                    clean design, practical functionality and
+                    intelligent technology.
+
+                </p>
+
+
+                <div class="hero-buttons">
+
+
+                    <a
+                        href="#projects"
+                        class="btn primary-btn"
+                    >
+                        View My Work
+                    </a>
+
+
+                    <a
+                        href="#contact"
+                        class="btn secondary-btn"
+                    >
+                        Contact Me
+                    </a>
+
+
+                    <a
+                        href="/static/resume.pdf"
+                        class="btn secondary-btn"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Download Resume
+                    </a>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- CODE WINDOW -->
+
+            <div class="hero-card">
+
+
+                <div class="code-window">
+
+
+                    <div class="code-header">
+
+
+                        <div class="window-dots">
+
+                            <span></span>
+                            <span></span>
+                            <span></span>
+
+                        </div>
+
+
+                        <span class="code-title">
+                            developer.js
+                        </span>
+
+
+                    </div>
+
+
+                    <div class="code-body">
+
+<pre><code><span class="code-keyword">const</span> developer = {
+
+    name: <span class="code-string">"Jaya"</span>,
+
+    role: <span class="code-string">
+        "Full Stack Developer"
+    </span>,
+
+    skills: [
+        <span class="code-string">"Python"</span>,
+        <span class="code-string">"Flask"</span>,
+        <span class="code-string">"JavaScript"</span>,
+        <span class="code-string">"React"</span>,
+        <span class="code-string">"AI"</span>
+    ],
+
+    mindset: <span class="code-string">
+        "Build. Learn. Improve."
+    </span>
+
+};</code></pre>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- ================= ABOUT ================= -->
+
+        <section
+            id="about"
+            class="section about-section"
+        >
+
+
+            <div class="section-heading reveal">
+
+                <p class="section-label">
+                    ABOUT
+                </p>
+
+                <h2>
+                    Developer with a
+                    <span>builder mindset.</span>
+                </h2>
+
+            </div>
+
+
+
+            <div class="about-grid">
+
+
+                <div class="about-content reveal">
+
+
+                    <p>
+
+                        I am a B.Tech student and aspiring full stack
+                        developer focused on building useful,
+                        scalable and user-friendly digital products.
+
+                    </p>
+
+
+                    <p>
+
+                        My interests include web development,
+                        artificial intelligence, software systems
+                        and solving real-world problems through
+                        technology.
+
+                    </p>
+
+
+                    <p>
+
+                        I enjoy turning ideas into working prototypes
+                        and continuously improving them through
+                        experimentation and learning.
+
+                    </p>
+
+
+                </div>
+
+
+
+                <div class="stats-grid reveal">
+
+
+                    <div class="stat">
+
+                        <strong>4+</strong>
+
+                        <span>
+                            Major Projects
+                        </span>
+
+                    </div>
+
+
+                    <div class="stat">
+
+                        <strong>AI</strong>
+
+                        <span>
+                            Projects
+                        </span>
+
+                    </div>
+
+
+                    <div class="stat">
+
+                        <strong>Full</strong>
+
+                        <span>
+                            Stack Focus
+                        </span>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- ================= SKILLS ================= -->
+
+        <section
+            id="skills"
+            class="section skills-section"
+        >
+
+
+            <div class="section-heading reveal">
+
+                <p class="section-label">
+                    SKILLS
+                </p>
+
+                <h2>
+                    Tools I use to
+                    <span>build.</span>
+                </h2>
+
+            </div>
+
+
+
+            <div class="skills-grid">
+
+
+                <article class="skill-card reveal">
+
+                    <div class="skill-number">
+                        01
+                    </div>
+
+                    <div class="skill-icon">
+                        PY
+                    </div>
+
+                    <h3>
+                        Python
+                    </h3>
+
+                    <p>
+                        Backend development,
+                        automation and AI applications.
+                    </p>
+
+                </article>
+
+
+
+                <article class="skill-card reveal">
+
+                    <div class="skill-number">
+                        02
+                    </div>
+
+                    <div class="skill-icon">
+                        JS
+                    </div>
+
+                    <h3>
+                        JavaScript
+                    </h3>
+
+                    <p>
+                        Interactive interfaces and
+                        modern web applications.
+                    </p>
+
+                </article>
+
+
+
+                <article class="skill-card reveal">
+
+                    <div class="skill-number">
+                        03
+                    </div>
+
+                    <div class="skill-icon">
+                        WEB
+                    </div>
+
+                    <h3>
+                        HTML / CSS
+                    </h3>
+
+                    <p>
+                        Responsive layouts and
+                        modern user interfaces.
+                    </p>
+
+                </article>
+
+
+
+                <article class="skill-card reveal">
+
+                    <div class="skill-number">
+                        04
+                    </div>
+
+                    <div class="skill-icon">
+                        AI
+                    </div>
+
+                    <h3>
+                        AI & ML
+                    </h3>
+
+                    <p>
+                        Intelligent applications and
+                        computer vision concepts.
+                    </p>
+
+                </article>
+
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- ================= PROJECTS ================= -->
+
+        <section
+            id="projects"
+            class="section projects-section"
+        >
+
+
+            <div class="section-heading reveal">
+
+                <p class="section-label">
+                    SELECTED WORK
+                </p>
+
+                <h2>
+                    Projects I've
+                    <span>built.</span>
+                </h2>
+
+            </div>
+
+
+
+            <div class="projects-grid">
+
+
+                <!-- PROJECT 1 -->
+
+                <article class="project-card reveal">
+
+
+                    <div class="project-top">
+
+                        <span class="project-number">
+                            01
+                        </span>
+
+                        <span class="project-status">
+                            AI + WEB
+                        </span>
+
+                    </div>
+
+
+                    <h3>
+                        NovaAI
+                    </h3>
+
+
+                    <p>
+
+                        An AI chatbot web application with a modern
+                        interface, conversation history and Flask
+                        backend integration.
+
+                    </p>
+
+
+                    <div class="project-tech">
+
+                        <span>Python</span>
+                        <span>Flask</span>
+                        <span>JavaScript</span>
+
+                    </div>
+
+
+                    <div class="project-actions">
+
+
+                        <a
+                            href="https://github.com/jayasreekomaripalam-netizen148/NovaAI"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            GitHub ↗
+                        </a>
+
+
+                        <a
+                            href="#"
+                            aria-label="NovaAI live demo coming soon"
+                        >
+                            Live Demo ↗
+                        </a>
+
+
+                    </div>
+
+
+                </article>
+
+
+
+                <!-- PROJECT 2 -->
+
+                <article class="project-card reveal">
+
+
+                    <div class="project-top">
+
+                        <span class="project-number">
+                            02
+                        </span>
+
+                        <span class="project-status">
+                            AI + WEB
+                        </span>
+
+                    </div>
+
+
+                    <h3>
+                        RouteX
+                    </h3>
+
+
+                    <p>
+
+                        An AI-powered smart logistics and accessibility
+                        platform designed to improve transportation
+                        intelligence across the North Eastern Region.
+
+                    </p>
+
+
+                    <div class="project-tech">
+
+                        <span>AI</span>
+                        <span>Web</span>
+                        <span>Logistics</span>
+
+                    </div>
+
+
+                    <div class="project-actions">
+
+
+                        <a
+                            href="https://github.com/jayasreekomaripalam-netizen148/RouteX-SIH26002"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            GitHub ↗
+                        </a>
+
+
+                        <a
+                            href="https://jayasreekomaripalam-netizen148.github.io/RouteX-SIH26002/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Live Demo ↗
+                        </a>
+
+
+                    </div>
+
+
+                </article>
+
+
+
+                <!-- PROJECT 3 -->
+
+                <article class="project-card reveal">
+
+
+                    <div class="project-top">
+
+                        <span class="project-number">
+                            03
+                        </span>
+
+                        <span class="project-status">
+                            COMPUTER VISION
+                        </span>
+
+                    </div>
+
+
+                    <h3>
+                        HandPuzzle Pro
+                    </h3>
+
+
+                    <p>
+
+                        A browser-based hand gesture recognition
+                        application using camera input and AI-powered
+                        computer vision.
+
+                    </p>
+
+
+                    <div class="project-tech">
+
+                        <span>JavaScript</span>
+                        <span>MediaPipe</span>
+                        <span>AI</span>
+
+                    </div>
+
+
+                    <div class="project-actions">
+
+
+                        <a
+                            href="https://github.com/jayasreekomaripalam-netizen148/hand-gesture-web"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            GitHub ↗
+                        </a>
+
+
+                        <a
+                            href="#"
+                            aria-label="HandPuzzle Pro live demo coming soon"
+                        >
+                            Live Demo ↗
+                        </a>
+
+
+                    </div>
+
+
+                </article>
+
+
+
+                <!-- PROJECT 4 -->
+
+                <article class="project-card reveal">
+
+
+                    <div class="project-top">
+
+                        <span class="project-number">
+                            04
+                        </span>
+
+                        <span class="project-status">
+                            SYSTEM
+                        </span>
+
+                    </div>
+
+
+                    <h3>
+                        JayaOS
+                    </h3>
+
+
+                    <p>
+
+                        An experimental operating-system-inspired
+                        environment combining desktop, mobile,
+                        developer and AI concepts.
+
+                    </p>
+
+
+                    <div class="project-tech">
+
+                        <span>JavaScript</span>
+                        <span>Node.js</span>
+                        <span>C</span>
+
+                    </div>
+
+
+                    <div class="project-actions">
+
+
+                        <a
+                            href="https://github.com/jayasreekomaripalam-netizen148/JayaOS"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            GitHub ↗
+                        </a>
+
+
+                        <a
+                            href="#"
+                            aria-label="JayaOS live demo coming soon"
+                        >
+                            Live Demo ↗
+                        </a>
+
+
+                    </div>
+
+
+                </article>
+
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- ================= CONTACT ================= -->
+
+        <section
+            id="contact"
+            class="section contact-section"
+        >
+
+
+            <div class="section-heading reveal">
+
+                <p class="section-label">
+                    CONTACT
+                </p>
+
+                <h2>
+                    Let's build something
+                    <span>great.</span>
+                </h2>
+
+            </div>
+
+
+
+            <div class="contact-grid">
+
+
+                <!-- CONTACT INFORMATION -->
+
+                <div class="contact-info reveal">
+
+
+                    <h3>
+                        Let's talk.
+                    </h3>
+
+
+                    <p>
+
+                        Have a project idea, internship opportunity,
+                        collaboration or just want to connect?
+                        Send me a message.
+
+                    </p>
+
+
+
+                    <div class="contact-details">
+
+
+                        <div class="contact-detail">
+
+                            <span>
+                                EMAIL
+                            </span>
+
+                            <a
+                                href="mailto:your.email@example.com"
+                            >
+                                your.email@example.com
+                            </a>
+
+                        </div>
+
+
+                        <div class="contact-detail">
+
+                            <span>
+                                LOCATION
+                            </span>
+
+                            <p>
+                                India
+                            </p>
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+
+                <!-- CONTACT FORM -->
+
+                <div class="contact-form-container reveal">
+
+
+                    <form
+                        id="contactForm"
+                        class="contact-form"
+                    >
+
+
+                        <div class="form-group">
+
+                            <label for="name">
+                                Name
+                            </label>
+
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                placeholder="Your name"
+                                autocomplete="name"
+                                required
+                            >
+
+                        </div>
+
+
+
+                        <div class="form-group">
+
+                            <label for="email">
+                                Email
+                            </label>
+
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                placeholder="your@email.com"
+                                autocomplete="email"
+                                required
+                            >
+
+                        </div>
+
+
+
+                        <div class="form-group">
+
+                            <label for="message">
+                                Message
+                            </label>
+
+                            <textarea
+                                id="message"
+                                name="message"
+                                rows="6"
+                                placeholder="Tell me about your project..."
+                                required
+                            ></textarea>
+
+                        </div>
+
+
+
+                                        <p
+                            id="response"
+                            class="form-response"
+                            aria-live="polite"
+                        ></p>
+
+
+                        <button
+                            type="submit"
+                            class="btn primary-btn submit-btn"
+                        >
+                            Send Message
+                        </button>
+
+
+                    </form>
+
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <p>
+            © 2026 Jaya. Built with Flask.
+        </p>
+
+        <a href="#home">
+            Back to top ↑
+        </a>
+
+    </footer>
+
+
+
+    <!-- ================= JAVASCRIPT ================= -->
+
+    <script
+        src="{{ url_for('static', filename='app.js') }}"
+    ></script>
+
+
+</body>
+
+</html>
+
